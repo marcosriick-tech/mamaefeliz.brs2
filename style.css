@@ -1,0 +1,58 @@
+/*
+Theme Name: Home Money
+Description: Tema WordPress moderno e responsivo para o público feminino, focado em afiliados e ofertas especiais.
+Author: Mamãe Feliz
+Version: 1.0.0
+Text Domain: homemoney
+Domain Path: /languages
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, e-commerce, feminine, responsive, custom-menu, custom-logo, featured-images, threaded-comments, translation-ready
+*/
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #ffeef7 0%, #fff5f8 100%);
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Utilitários */
+.text-center { text-align: center; }
+.text-pink { color: #e91e63; }
+.bg-pink { background-color: #e91e63; }
+.rounded { border-radius: 8px; }
+.shadow { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+/* WordPress classes */
+.alignleft { float: left; margin-right: 20px; }
+.alignright { float: right; margin-left: 20px; }
+.aligncenter { display: block; margin: 0 auto; }
+.wp-caption { max-width: 100%; }
+.wp-caption-text { font-size: 14px; color: #666; text-align: center; margin-top: 5px; }
+.sticky { background: #fff9c4; }
+.bypostauthor { background: #f0f8ff; }
+.screen-reader-text { 
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
